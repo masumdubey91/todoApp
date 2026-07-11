@@ -1,16 +1,64 @@
-# React + Vite
+# Todo App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Todo application built using the MERN stack.
 
-Currently, two official plugins are available:
+This is my first backend project where I learned how to build APIs, perform CRUD operations, and connect the frontend with the backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+### Frontend
+- React.js
+- Vite
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new todos
+- View all todos
+- Update existing todos
+- Delete todos
+- Frontend and backend communication using REST APIs
+
+## Project Structure
+Frontend ├── src ├── components └── package.json
+Backend ├── config ├── controllers ├── models ├── routes └── server.js
+
+## What I Learned
+
+Through this project, I learned:
+
+- Building backend APIs with Express.js
+- Implementing CRUD operations
+- Connecting React frontend with backend
+- Working with MongoDB and Mongoose
+- Understanding client-server communication
+
+## How to Run Locally
+
+### Clone Repository
+git clone your-repository-link
+
+### Frontend Setup
+cd react npm install npm run dev
+
+### Backend Setup
+cd Backend npm install node server.js
+
+## Future Improvements
+
+- User authentication
+- Better UI/UX
+- Task categories and filters
+- More advanced features
+
+## Author
+
+Masum Dubey
+
+Learning and building projects to improve my MERN stack development skills 🚀
